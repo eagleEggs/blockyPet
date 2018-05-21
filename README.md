@@ -4,8 +4,6 @@
 
  - A pet block to join you on the lonely adventure in Minecraft PI Edition
  - It follows you around wherever you go!
- - It eats all blocks it comes in contact with (Be careful!!!)
-
 
 ### How to use
 
@@ -16,7 +14,7 @@
  
 ### Warning
 
- - The pet is very hungry, It eats all blocks it comes in contact with.
+ - The pet is very hungry, Initially it ate blocks but it shouldn't anymore... beware!
  
  
 ### What to expect
