@@ -9,12 +9,12 @@
 
  - Load up Minecraft PI Edition
  - Open a Python Terminal and run this code
- - Use it only on test worlds
+ - Use it only on test worlds as it eats blocks every so often because it gets hungry
  - Use at your own risk!!!
  
 ### Warning
 
- - The pet is very hungry, Initially it ate blocks but it shouldn't anymore... beware!
+ - The pet is very hungry, Every so often, it will eat a block it runs into!
  
  
 ### What to expect
@@ -25,6 +25,12 @@
 ### Requirements
 
  - Lots of imagination!
+ 
+### Planned features
+
+ - Feed your pet something it wants
+ - Speed based on it's food fatigue
+ - Play fetch
  
  
 ### Screenshots
