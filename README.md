@@ -4,6 +4,7 @@
 
  - A pet block to join you on the lonely adventure in Minecraft PI Edition
  - It follows you around wherever you go!
+ - Blocky will let you know when hungry, feed it what it wants!!!
 
 ### How to use
 
@@ -19,7 +20,9 @@
  
 ### What to expect
 
- - It's pretty crude, but the block will spawn in front of you and follow you around
+ - Blocky will spawn in front of you and follow you around
+ - Blocky gets hungry throughout your adventure
+ - Blocky is your best friend!
  
  
 ### Requirements
@@ -28,7 +31,7 @@
  
 ### Planned features
 
- - Feed your pet something it wants
+ - Feed your pet something it wants (Complete)
  - Speed based on it's food fatigue
  - Play fetch
  
