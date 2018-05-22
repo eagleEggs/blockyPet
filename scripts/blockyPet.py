@@ -30,10 +30,13 @@ while (amount >= 0):
         if petFood == 6:
             food = str('sappling')
         if petFood == 7:
-            food = str('water')
-            petFood=8
+            food = str('ironOre')
+            petFood=15
         if petFood == 8:
             food = str('water')
+        if petFood == 9:
+            food = str('sand')
+            petFood = 12
         mc.postToChat('Blocky is hungry for ' +food)
         hungry = 1
     
