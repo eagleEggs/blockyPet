@@ -37,6 +37,12 @@ while (amount >= 0):
         mc.postToChat('Blocky is hungry for ' +food)
         hungry = 1
     
+    if hungry == 0:
+        fatigue = 0.3
+    else:
+        if hungry ==1:
+            fatigue = 1
+    
     pos2 = mc.player.getPos()
     if pos2.x > pos.x +2 and pos.x -2 != pos2.x:
         #mc.setBlock(x+2,y+jump,z, 0)
@@ -45,7 +51,7 @@ while (amount >= 0):
             #mc.postToChat('Move > x')
             mc.setBlock(pos.x+1,pos.y,pos.z, blockType)
             steps = steps + 1
-            time.sleep(0.3)
+            time.sleep(fatigue)
             mc.setBlock(pos.x+1,pos.y,pos.z, 0)
             pos.x = pos.x+1
         else:
@@ -62,7 +68,7 @@ while (amount >= 0):
             #mc.postToChat('Move < x')
             mc.setBlock(pos.x-1,pos.y,pos.z, blockType)
             steps = steps + 1
-            time.sleep(0.3)
+            time.sleep(fatigue)
             mc.setBlock(pos.x-1,pos.y,pos.z, 0)
             pos.x = pos.x -1
         else:
@@ -79,7 +85,7 @@ while (amount >= 0):
             #mc.postToChat('Move > y')
             mc.setBlock(pos.x,pos.y+1,pos.z, blockType)
             steps = steps + 1
-            time.sleep(0.3)
+            time.sleep(fatigue)
             mc.setBlock(pos.x,pos.y+1,pos.z, 0)
             pos.y = pos.y+1
         else:
@@ -96,7 +102,7 @@ while (amount >= 0):
             #mc.postToChat('Move < y')
             mc.setBlock(pos.x,pos.y-1,pos.z, blockType)
             steps = steps + 1
-            time.sleep(0.3)
+            time.sleep(fatigue)
             mc.setBlock(pos.x,pos.y-1,pos.z, 0)
             pos.y = pos.y -1
         else:
@@ -113,7 +119,7 @@ while (amount >= 0):
             #mc.postToChat('Move > z')
             mc.setBlock(pos.x,pos.y,pos.z+1, blockType)
             steps = steps + 1
-            time.sleep(0.3)
+            time.sleep(fatigue)
             mc.setBlock(pos.x,pos.y,pos.z+1, 0)
             pos.z = pos.z+1
         else:
@@ -130,7 +136,7 @@ while (amount >= 0):
             #mc.postToChat('Move < z')
             mc.setBlock(pos.x,pos.y,pos.z-1, blockType)
             steps = steps + 1
-            time.sleep(0.3)
+            time.sleep(fatigue)
             mc.setBlock(pos.x,pos.y,pos.z-1, 0)
             pos.z = pos.z -1
         else:
