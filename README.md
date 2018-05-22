@@ -32,7 +32,7 @@
 ### Planned features
 
  - Feed your pet something it wants (Complete)
- - Speed based on it's food fatigue
+ - Speed based on it's food fatigue (Complete)
  - Play fetch
  
  
