@@ -42,7 +42,7 @@ while (amount >= 0):
         #mc.setBlock(x+2,y+jump,z, 0)
         checkBlockX = mc.getBlock(pos.x+1,pos.y,pos.z)
         if checkBlockX == 0:
-            mc.postToChat('Move > x')
+            #mc.postToChat('Move > x')
             mc.setBlock(pos.x+1,pos.y,pos.z, blockType)
             steps = steps + 1
             time.sleep(0.3)
@@ -59,7 +59,7 @@ while (amount >= 0):
     if pos2.x < pos.x-2 and pos.x +2 != pos2.x:
         checkBlockX2 = mc.getBlock(pos.x-1,pos.y,pos.z)
         if checkBlockX2 == 0:
-            mc.postToChat('Move < x')
+            #mc.postToChat('Move < x')
             mc.setBlock(pos.x-1,pos.y,pos.z, blockType)
             steps = steps + 1
             time.sleep(0.3)
@@ -76,7 +76,7 @@ while (amount >= 0):
     if pos2.y > pos.y:
         checkBlockY = mc.getBlock(pos.x,pos.y+1,pos.z)
         if checkBlockY == 0:
-            mc.postToChat('Move > y')
+            #mc.postToChat('Move > y')
             mc.setBlock(pos.x,pos.y+1,pos.z, blockType)
             steps = steps + 1
             time.sleep(0.3)
@@ -93,7 +93,7 @@ while (amount >= 0):
     if pos2.y < pos.y:
         checkBlockY2 = mc.getBlock(pos.x,pos.y-1,pos.z)
         if checkBlockY2 == 0:
-            mc.postToChat('Move < y')
+            #mc.postToChat('Move < y')
             mc.setBlock(pos.x,pos.y-1,pos.z, blockType)
             steps = steps + 1
             time.sleep(0.3)
@@ -110,7 +110,7 @@ while (amount >= 0):
     if pos2.z > pos.z and pos.z+1 != pos2.z:
         checkBlockZ = mc.getBlock(pos.x,pos.y,pos.z+1)
         if checkBlockZ == 0:
-            mc.postToChat('Move > z')
+            #mc.postToChat('Move > z')
             mc.setBlock(pos.x,pos.y,pos.z+1, blockType)
             steps = steps + 1
             time.sleep(0.3)
@@ -127,7 +127,7 @@ while (amount >= 0):
     if pos2.z < pos.z and pos.z -1 != pos2.z:
         checkBlockZ2 = mc.getBlock(pos.x,pos.y,pos.z-1)
         if checkBlockZ2 ==0:
-            mc.postToChat('Move < z')
+            #mc.postToChat('Move < z')
             mc.setBlock(pos.x,pos.y,pos.z-1, blockType)
             steps = steps + 1
             time.sleep(0.3)
